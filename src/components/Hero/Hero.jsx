@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import heroSlides from "../../data/heroSlides";
+import heroSlides from "../../data/heroSlides.js";
 import LogoDoBanner from "../../public/Logo-Sem-Fundo.png";
 import "./Hero.css";
 
