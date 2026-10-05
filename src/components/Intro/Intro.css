@@ -1,0 +1,54 @@
+.intro {
+  background: var(--yellow);
+}
+
+.intro__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 100px;
+}
+
+
+.intro h2 em {
+  color: #63749f;
+}
+
+.intro__copy > p {
+  margin: 25px 0 32px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.intro__signature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.signature-mark {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--ink);
+  color: white;
+  font-family: var(--heading);
+}
+
+.intro__signature strong,
+.intro__signature small {
+  display: block;
+}
+
+.intro__signature small {
+  margin-top: 3px;
+  color: #606a72;
+  font-size: 12px;
+}
+
+@media (max-width: 540px) {
+    .intro__copy > p {
+      font-size: 16px;
+    }
+}

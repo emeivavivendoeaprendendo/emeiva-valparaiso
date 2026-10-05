@@ -1,0 +1,72 @@
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+}
+
+.brand__mark {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  position: relative;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50% 50% 45% 55%;
+  background: var(--yellow);
+  box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.7);
+  color: var(--ink);
+  font-family: var(--heading);
+  font-size: 25px;
+  transform: rotate(-4deg);
+}
+
+.brand__mark span {
+  position: relative;
+  z-index: 2;
+  transform: rotate(4deg);
+}
+
+.brand__mark i {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.brand__mark i:nth-of-type(1) { top: 2px; right: 4px; background: var(--pink); }
+.brand__mark i:nth-of-type(2) { bottom: 3px; left: 2px; background: var(--blue); }
+.brand__mark i:nth-of-type(3) { bottom: 0; right: 4px; background: var(--periwinkle); }
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand strong {
+  font-family: var(--heading);
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.brand small {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+@media (max-width: 780px) {
+    .brand small {
+      display: none;
+    }
+
+    .brand strong {
+      max-width: 170px;
+      font-size: 14px;
+    }
+
+    .brand__mark {
+      width: 43px;
+      height: 43px;
+    }
+}

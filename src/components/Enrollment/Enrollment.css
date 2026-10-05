@@ -1,0 +1,125 @@
+.enrollment {
+  background: #fff;
+}
+
+.enrollment__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.9fr;
+  gap: 18px;
+}
+
+.age-card,
+.schedule-card {
+  min-height: 330px;
+  padding: 36px;
+  border-radius: 28px;
+}
+
+.age-card--yellow { background: var(--cream); }
+.age-card--blue { background: var(--sky); }
+
+.age-card__label {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.age-card > strong {
+  display: block;
+  margin: -14px 0 -26px;
+  color: white;
+  font-family: var(--heading);
+  font-size: 150px;
+  line-height: 1;
+}
+
+.age-card h3 {
+  margin: 0 0 12px;
+  font-family: var(--heading);
+  font-size: 26px;
+}
+
+.age-card p {
+  margin: 0 0 12px;
+}
+
+.age-card small {
+  color: #59657b;
+}
+
+.schedule-card {
+  display: grid;
+  align-content: center;
+  gap: 26px;
+  background: var(--ink);
+  color: white;
+}
+
+.schedule-card > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.schedule-card svg {
+  flex: none;
+  color: var(--yellow);
+}
+
+.schedule-card small,
+.schedule-card strong {
+  display: block;
+}
+
+.schedule-card small {
+  margin-bottom: 4px;
+  color: #bfc7d8;
+}
+
+.classes-note {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  align-items: center;
+  gap: 70px;
+  margin-top: 18px;
+  padding: 36px 42px;
+  border: 1px solid #e5e7ed;
+  border-radius: 18px;
+}
+
+.classes-note h3 {
+  margin: 0;
+  font-family: var(--heading);
+  font-size: 25px;
+}
+
+.classes-note p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+@media (max-width: 1020px) {
+    .enrollment__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .schedule-card {
+      grid-column: 1 / -1;
+      min-height: auto;
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 780px) {
+    .schedule-card {
+      grid-column: auto;
+      grid-template-columns: 1fr;
+    }
+
+    .classes-note {
+      grid-template-columns: 1fr;
+      gap: 18px;
+      padding: 30px;
+    }
+}

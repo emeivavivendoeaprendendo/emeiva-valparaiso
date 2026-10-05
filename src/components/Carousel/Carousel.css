@@ -1,0 +1,51 @@
+.gallery {
+  min-height: 510px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 36px 8px 36px 8px;
+  background: var(--sky);
+}
+
+.gallery > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.gallery__wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(37, 49, 74, 0.25), transparent 45%);
+}
+
+.carousel-button {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.carousel-button--previous { left: 18px; }
+.carousel-button--next { right: 18px; }
+
+.carousel-dots {
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 780px) {
+    .gallery {
+      min-height: 390px;
+    }
+}
