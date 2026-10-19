@@ -1,0 +1,10 @@
+{
+  "description": "Designed for EMEI Vivendo e Aprendendo, this website provides essential information about the preschool, including its history, infrastructure, staff, and location.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
