@@ -28,12 +28,8 @@
 .signature-mark {
   width: 46px;
   height: 46px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--ink);
-  color: white;
-  font-family: var(--heading);
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .intro__signature strong,
