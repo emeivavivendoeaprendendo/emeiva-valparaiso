@@ -12,6 +12,7 @@ export default function Footer() {
           <a href="#matriculas">Matrículas</a>
           <a href="#infraestrutura">Infraestrutura</a>
         </div>
+        
         <div>
           <strong>Horários</strong>
           <span>Manhã: 7h30 às 12h30</span>
