@@ -17,6 +17,9 @@
 *.ai                 filter=lfs diff=lfs merge=lfs -text
 *.sketch             filter=lfs diff=lfs merge=lfs -text
 
+# Keep the site logo in regular Git so hosts can build without Git LFS.
+src/assets/emei-logo.png -filter -diff -merge -text
+
 # ---------------------------------------------------------------------------
 # Video
 # ---------------------------------------------------------------------------
