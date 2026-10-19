@@ -1,5 +1,5 @@
 import "./Intro.css";
-import MiniaturaLogo from "../../public/Logo-Sem-Fundo.png"
+import logo from "../../assets/emei-logo.png";
 
 export default function Intro() {
   return (
@@ -7,7 +7,7 @@ export default function Intro() {
       <div className="shell intro__grid">
         <div>
           <span className="kicker">Boas-vindas</span>
-          <h2>Todo dia é uma nova<br />descoberta.</h2>
+          <h2>Todo dia é uma nova<br /><em>descoberta.</em></h2>
         </div>
         <div className="intro__copy">
           <p>
@@ -16,9 +16,7 @@ export default function Intro() {
             nas pequenas conquistas de cada dia.
           </p>
           <div className="intro__signature">
-            <span className="signature-mark">
-                <img src={MiniaturaLogo} alt="Miniatura da logo" />
-            </span>
+            <img className="signature-mark" src={logo} alt="" aria-hidden="true" />
             <span><strong>Equipe EMEI</strong><small>Vivendo e Aprendendo</small></span>
           </div>
         </div>

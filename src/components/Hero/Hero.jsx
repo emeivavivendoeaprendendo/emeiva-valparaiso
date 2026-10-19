@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import heroSlides from "../../data/heroSlides";
-import LogoDoBanner from "../../public/Logo-Sem-Fundo.png";
+import logo from "../../assets/emei-logo.png";
 import "./Hero.css";
 
 export default function Hero() {
@@ -27,11 +27,7 @@ export default function Hero() {
       <div className="hero__overlay" />
       <div className="shell hero__content">
         <span className="hero__tag">Escola Municipal de Educação Infantil</span>
-
-        <div className="hero__logo  img-banner" aria-hidden="true">
-          <img src={LogoDoBanner} alt="Logo da EMEI Vivendo e Aprendendo" />
-        </div>
-
+        <img className="hero__logo" src={logo} alt="" aria-hidden="true" />
         <h1>EMEI<br /><em>Vivendo e Aprendendo</em></h1>
         <p>Um lugar para brincar, descobrir, conviver e crescer.</p>
         <a className="button" href="#sobre">Conheça nossa escola <span>↓</span></a>
