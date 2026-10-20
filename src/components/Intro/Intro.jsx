@@ -7,7 +7,11 @@ export default function Intro() {
       <div className="shell intro__grid">
         <div>
           <span className="kicker">Boas-vindas</span>
-          <h2>Todo dia é uma nova<br /><em>descoberta.</em></h2>
+          <h2>Todo dia é uma nova<br />
+            <span className="highlight">
+              <strong>descoberta.</strong>
+            </span>
+          </h2>
         </div>
         <div className="intro__copy">
           <p>
