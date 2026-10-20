@@ -43,6 +43,10 @@
   font-size: 12px;
 }
 
+.highlight {
+  color: #fff;
+}
+
 @media (max-width: 540px) {
     .intro__copy > p {
       font-size: 16px;

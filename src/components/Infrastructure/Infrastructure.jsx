@@ -24,7 +24,7 @@ export default function Infrastructure() {
           </div>
         </div>
         <div className="facility-grid">
-          <article><Icon name="blocks" /><h3>Salas de referência</h3><p>Organizadas para atividades, rodas de conversa e brincadeiras.</p></article>
+          {/* <article><Icon name="blocks" /><h3>Salas de referência</h3><p>Organizadas para atividades, rodas de conversa e brincadeiras.</p></article> */}
           <article><Icon name="heart" /><h3>Alimentação escolar</h3><p>Refeições preparadas para uma rotina saudável e acolhedora.</p></article>
           <article><Icon name="accessibility" /><h3>Acessibilidade</h3><p>Circulação e espaços pensados para receber todas as crianças.</p></article>
           <article><Icon name="users" /><h3>Áreas de convivência</h3><p>Locais para movimento, encontros e experiências coletivas.</p></article>
