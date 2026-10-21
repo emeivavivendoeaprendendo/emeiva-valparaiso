@@ -14,6 +14,7 @@ export default function About() {
         <SectionTitle eyebrow="Nossa escola" title="Uma história construída em comunidade">
           Um espaço onde cuidado e educação caminham juntos, respeitando o tempo e a singularidade de cada criança.
         </SectionTitle>
+        
         <div className="about__grid">
           <Carousel
             slides={gallerySlides}

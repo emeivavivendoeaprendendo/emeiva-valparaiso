@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
+import Eventss from "./components/Eventss/Eventss";
 import Enrollment from "./components/Enrollment/Enrollment";
 import Infrastructure from "./components/Infrastructure/Infrastructure";
 import Team from "./components/Team/Team";
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <Intro />
         <About />
+        <Eventss />
         <Enrollment />
         <Infrastructure />
         <Team />
