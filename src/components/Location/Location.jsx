@@ -7,7 +7,11 @@ export default function Location() {
       <div className="shell location__grid">
         <div className="location__content">
           <span className="kicker">Venha nos conhecer</span>
-          <h2>A escola está de<br /><em>portas abertas.</em></h2>
+          <h2>A escola está de<br />
+            <span className="door_desciption">
+              <strong>portas abertas.</strong>
+            </span>
+          </h2>
           <p>
             Use o mapa para localizar a EMEI. O endereço oficial e os canais de contato podem ser
             inseridos aqui assim que forem confirmados.

@@ -10,7 +10,7 @@ import Carousel from "../Carousel/Carousel";
 import Icon from "../Icon/Icon";
 
 // @ts-expect-error This JavaScript data module has no TypeScript declaration.
-import galleryEventss from "../../data/galleryEventss";
+import galleryEventssPovosIndigenas from "../../data/galleryEventssPovosIndigenas";
 import './Eventss.css'
 
 export default function Eventss() {
@@ -24,10 +24,11 @@ export default function Eventss() {
                 </SectionTitle>
 
                 {/*GRID COM CAROUSEL E STORY CARD*/}
+                {/*Evento 1*/}
                 <div className="eventss__grid">
                     {/*ITEM DO LADO ESQUERDO DA TELA */}
                     <Carousel
-                        slides={galleryEventss}
+                        slides={galleryEventssPovosIndigenas}
                         current={currentSlide}
                         setCurrent={setCurrentSlide}
                         label="Galeria de eventos"
@@ -37,22 +38,62 @@ export default function Eventss() {
                     <article className="story-card-eventss">
                         <span className="story-card__number">01</span>
                         <span className="kicker">Evento 1</span>
-                        <h3>Raízes que ensinam,<br />laços que acolhem.</h3>
+                        <span className="story-card__title">
+                            <h3>Projeto <br /> Povos Indígenas</h3>
+                            <br/>
+                        </span>
                         <p>
-                                A EMEI Vivendo e Aprendendo faz parte da história de muitas famílias. Este espaço está
-                                pronto para receber o ano de criação, os principais marcos e as memórias da comunidade escolar.
+                            O projeto sobre os Povos Indígenas foi desenvolvido com a participação de todas as turmas, por meio de atividades lúdicas e educativas adequadas à faixa etária das crianças. Cada turma explorou um tema específico, promovendo o conhecimento, o respeito e a valorização da cultura, dos costumes e das tradições dos povos indígenas. Ao final, os trabalhos foram organizados em uma exposição coletiva, com painéis, desenhos, pinturas, maquetes e outras produções realizadas pelas crianças, valorizando as aprendizagens, a criatividade e a troca de experiências entre as turmas e a comunidade escolar.
                         </p>
                         <p>
                             Nossa proposta valoriza a curiosidade, a autonomia e o direito de viver plenamente a infância.
                         </p>
 
                         <div className="story-card__note">
-                            <Icon name="heart" />
+                            <Icon name="calendar" />
                             <span>
-                                <strong>Espaço preparado</strong> para inserir fotos e momentos dos alunos.
+                                <strong>Data</strong> 
+                                Evento realizado em 28/04/2026
                             </span>
                         </div>
                     </article>
+                </div>
+
+                <br/>
+
+                {/*Evento 2*/}
+                <div className="eventss__grid">
+                    {/*ITEM DO LADO ESQUERDO DA TELA */}
+                    <article className="story-card-eventss">
+                        <span className="story-card__number">02</span>
+                        <span className="kicker">Evento 2</span>
+                        <span className="story-card__title">
+                            <h3>Projeto <br /> Nome do evento</h3>
+                            <br/>
+                        </span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, enim eum facere veritatis nemo aut optio adipisci, hic illo fugit nisi autem expedita porro, nam labore libero magnam fugiat laborum.
+                        </p>
+                        <p>
+                            lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, enim eum facere veritatis nemo aut optio adipisci, hic illo fugit nisi autem expedita porro, nam labore libero magnam fugiat laborum.
+                        </p>
+
+                        <div className="story-card__note">
+                            <Icon name="calendar" />
+                            <span>
+                                <strong>Data</strong> 
+                                Evento realizado em 00/00/2026
+                            </span>
+                        </div>
+                    </article>
+
+                    {/*ITEM DO LADO DIREITO DA TELA */}
+                    <Carousel
+                        slides={galleryEventssPovosIndigenas} //Troca para o array de imagens do evento.
+                        current={currentSlide}
+                        setCurrent={setCurrentSlide}
+                        label="Galeria de x"
+                    />
                 </div>
 
             </div>

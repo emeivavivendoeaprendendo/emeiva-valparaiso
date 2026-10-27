@@ -77,6 +77,11 @@
   backdrop-filter: blur(8px);
 }
 
+.door_desciption {
+  font-size: 4rem;
+  color: #fff;
+}
+
 @media (max-width: 780px) {
     .location__grid {
       gap: 55px;

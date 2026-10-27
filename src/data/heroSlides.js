@@ -1,6 +1,6 @@
 const heroSlides = [
   {
-    src: "src/assets/img/9.jpeg",
+    src: "src/assets/img/Variadas/9.jpeg",
     alt: "Sala de educação infantil com mesas, cadeiras e materiais coloridos",
   },
   {
