@@ -1,5 +1,7 @@
 import { useState } from "react";
 import gallerySlides from "../../data/gallerySlides";
+import gallerySlides2 from "../../data/gallerySlides2";
+import gallerySlides3 from "../../data/gallerySlides3";
 import Carousel from "../Carousel/Carousel";
 import Icon from "../Icon/Icon";
 import SectionTitle from "../SectionTitle/SectionTitle";
@@ -7,6 +9,8 @@ import "./About.css";
 
 export default function About() {
   const [gallerySlide, setGallerySlide] = useState(0);
+  const [gallerySlide2, setGallerySlide2] = useState(0); 
+  const [gallerySlide3, setGallerySlide3] = useState(0);
 
   return (
     <section className="section about" id="sobre">
@@ -35,10 +39,63 @@ export default function About() {
             </p>
             <div className="story-card__note">
               <Icon name="heart" />
-              <span><strong>Espaço preparado</strong> para inserir fotos e momentos dos alunos.</span>
+              <span><strong>Espaço preparado</strong> para o aprendizado dos alunos.</span>
             </div>
           </article>
         </div>
+
+        <div className="about__grid">
+          <Carousel
+            slides={gallerySlides2}
+            current={gallerySlide2}
+            setCurrent={setGallerySlide2}
+            label="Galeria da escola"
+          />
+          <article className="story-card2">
+            <span className="story-card__number">02</span>
+            <span className="kicker">Nossa essência</span>
+            <h3>Aprender, descobrir<br />e crescer juntos.</h3>
+            <p>
+             Acreditamos que cada criança tem seu próprio jeito de aprender e descobrir o mundo. Por isso, nossa escola oferece um ambiente acolhedor,
+             onde a curiosidade é incentivada, as diferenças são respeitadas e cada conquista é valorizada.
+            </p>
+            <p>
+              Por meio de experiências, brincadeiras e atividades educativas, estimulamos o desenvolvimento da autonomia, da criatividade
+              e do pensamento crítico, preparando nossos alunos para os desafios de cada nova etapa.
+            </p>
+            <div className="story-card__note">
+              <Icon name="book"/>
+              <span><strong>Aprendizado com propósito</strong>Para desenvolver habilidades e formar cidadãos conscientes.</span>
+            </div>
+          </article>
+        </div>
+
+        <div className="about__grid">
+          <Carousel
+            slides={gallerySlides3}
+            current={gallerySlide3}
+            setCurrent={setGallerySlide3}
+            label="Galeria da escola"
+          />
+          <article className="story-card3">
+            <span className="story-card__number">03</span>
+            <span className="kicker">Nosso compromisso</span>
+            <h3>Educação que transforma,<br />cuidado que faz a diferença.</h3>
+            <p>
+             Mais do que ensinar conteúdos, queremos construir uma trajetória de aprendizado marcada por descobertas, amizades e novas possibilidades.
+             Nossa proposta pedagógica valoriza o desenvolvimento integral dos alunos, unindo conhecimento, respeito e responsabilidade.
+            </p>
+            <p>
+              Com a parceria entre escola e família, cultivamos valores essenciais para a vida em sociedade e incentivamos cada estudante a acreditar em seu potencial,
+             explorar suas habilidades e construir seu próprio caminho.
+            </p>
+            <div className="story-card__note">
+              <Icon name="blocks" />
+              <span><strong>Crescer com confiança</strong>Para aprender, compartilhar e construir o futuro.</span>
+            </div>
+          </article>
+        </div>
+
         <div className="values">
           <article><Icon name="book" /><h3>Aprender brincando</h3><p>Experiências lúdicas e significativas.</p></article>
           <article><Icon name="users" /><h3>Comunidade presente</h3><p>Família e escola crescendo juntas.</p></article>
