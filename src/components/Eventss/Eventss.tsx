@@ -11,10 +11,14 @@ import Icon from "../Icon/Icon";
 
 // @ts-expect-error This JavaScript data module has no TypeScript declaration.
 import galleryEventssPovosIndigenas from "../../data/galleryEventssPovosIndigenas";
+// @ts-expect-error This JavaScript data module has no TypeScript declaration.
+import galleryEventssDiadaFruta from "../../data/galleryEventssDiadaFruta";
 import './Eventss.css'
 
 export default function Eventss() {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [currentSlide2, setCurrentSlide2] = useState(0);
+    const [currentSlide3, setCurrentSlide3] = useState(0);
 
     return (
         <section className="section eventss" id="eventoss">
@@ -68,35 +72,73 @@ export default function Eventss() {
                         <span className="story-card__number">02</span>
                         <span className="kicker">Evento 2</span>
                         <span className="story-card__title">
-                            <h3>Projeto <br /> Nome do evento</h3>
+                            <h3>Projeto <br />  Dia da Fruta: Aprender, Experimentar e Crescer com Saúde!</h3>
                             <br/>
                         </span>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, enim eum facere veritatis nemo aut optio adipisci, hic illo fugit nisi autem expedita porro, nam labore libero magnam fugiat laborum.
+                            O Dia da Fruta foi um momento especial de alegria, descobertas e aprendizado! As crianças tiveram a oportunidade de conhecer diferentes frutas, explorar cores, aromas, texturas e sabores, descobrindo de forma divertida a importância de uma alimentação saudável. A atividade incentivou a curiosidade, a autonomia e a criação de hábitos alimentares positivos desde a infância, tornando o aprendizado uma experiência saborosa e cheia de diversão! 
                         </p>
-                        <p>
-                            lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, enim eum facere veritatis nemo aut optio adipisci, hic illo fugit nisi autem expedita porro, nam labore libero magnam fugiat laborum.
-                        </p>
+                        
 
                         <div className="story-card__note">
                             <Icon name="calendar" />
                             <span>
                                 <strong>Data</strong> 
-                                Evento realizado em 00/00/2026
+                                Evento realizado em 27/10/2026
                             </span>
                         </div>
                     </article>
 
                     {/*ITEM DO LADO DIREITO DA TELA */}
                     <Carousel
-                        slides={galleryEventssPovosIndigenas} //Troca para o array de imagens do evento.
-                        current={currentSlide}
-                        setCurrent={setCurrentSlide}
-                        label="Galeria de x"
+                        slides={galleryEventssDiadaFruta} //Troca para o array de imagens do evento.
+                        current={currentSlide2}
+                        setCurrent={setCurrentSlide2}
+                        label="Galeria de Fotos do evento Dia da Fruta"
                     />
                 </div>
 
+                <br/>
+
+                {/*Evento 1*/}
+                <div className="eventss__grid">
+                    {/*ITEM DO LADO ESQUERDO DA TELA */}
+                    <Carousel
+                        slides={galleryEventssPovosIndigenas}
+                        current={currentSlide3}
+                        setCurrent={setCurrentSlide3}
+                        label="Galeria de eventos"
+                    />
+
+                    {/*ITEM DO LADO DIREITO DA TELA */}
+                    <article className="story-card-eventss">
+                        <span className="story-card__number">03</span>
+                        <span className="kicker">Evento 3</span>
+                        <span className="story-card__title">
+                            <h3>Projeto <br /> Dia da Vacinação: Cuidar, Proteger e Crescer com Saúde!</h3>
+                            <br/>
+                        </span>
+                        <p>
+                            O Dia da Vacinação na escola foi um momento importante de cuidado e conscientização sobre a saúde das nossas crianças. Com o apoio dos profissionais de saúde e das famílias, reforçamos a importância das vacinas na prevenção de doenças e na proteção de todos. Afinal, vacinar é um ato de amor, responsabilidade e cuidado com o futuro dos pequenos!
+                        </p>
+                        <p>
+                            Nossa proposta valoriza o cuidado, o carinho e a proteção desde a infância, promovendo a conscientização sobre a importância da vacinação. Afinal, cada vacina é um gesto de amor que ajuda a proteger nossas crianças, garantindo mais saúde, segurança e muitos sorrisos para crescer, brincar e descobrir o mundo!cia.
+                        </p>
+
+                        <div className="story-card__note">
+                            <Icon name="calendar" />
+                            <span>
+                                <strong>Data</strong> 
+                                Evento realizado em 29/10/2026
+                            </span>
+                        </div>
+                    </article>
+                </div>
+
+                <br/>
+
             </div>
+            
         </section>
     )
 }
