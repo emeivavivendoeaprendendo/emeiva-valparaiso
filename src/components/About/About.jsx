@@ -35,7 +35,7 @@ export default function About() {
             </p>
             <div className="story-card__note">
               <Icon name="heart" />
-              <span><strong>Espaço preparado</strong> para inserir fotos e momentos dos alunos.</span>
+              <span><strong>Espaço preparado</strong> para o aprendizado dos alunos.</span>
             </div>
           </article>
         </div>

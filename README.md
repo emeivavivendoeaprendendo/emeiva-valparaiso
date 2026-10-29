@@ -126,7 +126,7 @@ Antes do lançamento em produção, realize a substituição dos itens marcados:
 
 3. **Iniciar ambiente de desenvolvimento:**
    ```bash
-   pnpm dev
+   p  
    ```
    Acesse a aplicação no navegador em `http://localhost:5173`.
 
