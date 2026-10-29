@@ -16,9 +16,9 @@ import galleryEventssDiadaFruta from "../../data/galleryEventssDiadaFruta";
 import './Eventss.css'
 
 export default function Eventss() {
-    const [currentSlidePovos, setCurrentSlidePovos] = useState(0);
-    const [currentSlideFruta, setCurrentSlideFruta] = useState(0);
-    const [currentSlideVacinacao, setCurrentSlideVacinacao] = useState(0);
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const [currentSlide2, setCurrentSlide2] = useState(0);
+    const [currentSlide3, setCurrentSlide3] = useState(0);
 
     return (
         <section className="section eventss" id="eventoss">
@@ -33,8 +33,8 @@ export default function Eventss() {
                     {/*ITEM DO LADO ESQUERDO DA TELA */}
                     <Carousel
                         slides={galleryEventssPovosIndigenas}
-                        current={currentSlidePovos}
-                        setCurrent={setCurrentSlidePovos}
+                        current={currentSlide}
+                        setCurrent={setCurrentSlide}
                         label="Galeria de eventos"
                     />
 
@@ -92,8 +92,8 @@ export default function Eventss() {
                     {/*ITEM DO LADO DIREITO DA TELA */}
                     <Carousel
                         slides={galleryEventssDiadaFruta} //Troca para o array de imagens do evento.
-                        current={currentSlideFruta}
-                        setCurrent={setCurrentSlideFruta}
+                        current={currentSlide2}
+                        setCurrent={setCurrentSlide2}
                         label="Galeria de Fotos do evento Dia da Fruta"
                     />
                 </div>
@@ -105,8 +105,8 @@ export default function Eventss() {
                     {/*ITEM DO LADO ESQUERDO DA TELA */}
                     <Carousel
                         slides={galleryEventssPovosIndigenas}
-                        current={currentSlideVacinacao}
-                        setCurrent={setCurrentSlideVacinacao}
+                        current={currentSlide3}
+                        setCurrent={setCurrentSlide3}
                         label="Galeria de eventos"
                     />
 
