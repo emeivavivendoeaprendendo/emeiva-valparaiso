@@ -1,11 +1,14 @@
 .about {
   background: var(--paper);
+  
 }
 
 .about__grid {
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
   gap: 22px;
+  margin-top: 32px;
+  
 }
 
 
@@ -14,8 +17,53 @@
   overflow: hidden;
   padding: 58px 48px;
   border-radius: 8px 36px 8px 36px;
-  background: var(--blush);
+  background: var(--yellow);
 }
+
+.story-card2 {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 48px;
+  border-radius: 8px 36px 8px 36px;
+  background: var(--blue);
+}
+
+.story-card3 {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 48px;
+  border-radius: 8px 36px 8px 36px;
+  background: var(--pink);
+}
+
+.story-card2 h3 {
+  position: relative;
+  margin: 0 0 24px;
+  font-family: var(--heading);
+  font-size: 38px;
+  line-height: 1.1;
+}
+
+.story-card2 p {
+  position: relative;
+  color: #5d6474;
+  line-height: 1.75;
+}
+
+.story-card3 h3 {
+  position: relative;
+  margin: 0 0 24px;
+  font-family: var(--heading);
+  font-size: 38px;
+  line-height: 1.1;
+}
+
+.story-card3 p {
+  position: relative;
+  color: #5d6474;
+  line-height: 1.75;
+}
+
 
 .story-card__number {
   position: absolute;
