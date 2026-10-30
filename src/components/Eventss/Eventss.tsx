@@ -13,12 +13,17 @@ import Icon from "../Icon/Icon";
 import galleryEventssPovosIndigenas from "../../data/galleryEventssPovosIndigenas";
 // @ts-expect-error This JavaScript data module has no TypeScript declaration.
 import galleryEventssDiadaFruta from "../../data/galleryEventssDiadaFruta";
+// @ts-expect-error This JavaScript data module has no TypeScript declaration.
+import galleryEventssDiaOftalmologica from "../../data/galleryEventssDiaOftalmologica";
+// @ts-expect-error This JavaScript data module has no TypeScript declaration.
+import galleryEventssDiadaCulinaria from "../../data/galleryEventssDiadaCulinaria";
 import './Eventss.css'
 
 export default function Eventss() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [currentSlide2, setCurrentSlide2] = useState(0);
     const [currentSlide3, setCurrentSlide3] = useState(0);
+    const [currentSlide4, setCurrentSlide4] = useState(0);
 
     return (
         <section className="section eventss" id="eventoss">
@@ -26,7 +31,6 @@ export default function Eventss() {
                 <SectionTitle eyebrow="Projetos da nossa instituição" title="Atividades e eventos realizados em grupo para as crianças e famílias">
                     Aqui estão alguns dos eventos que realizamos ao longo do ano.
                 </SectionTitle>
-
                 {/*GRID COM CAROUSEL E STORY CARD*/}
                 {/*Evento 1*/}
                 <div className="eventss__grid">
@@ -68,7 +72,7 @@ export default function Eventss() {
                 {/*Evento 2*/}
                 <div className="eventss__grid">
                     {/*ITEM DO LADO ESQUERDO DA TELA */}
-                    <article className="story-card-eventss">
+                    <article className="story-card-eventss-2">
                         <span className="story-card__number">02</span>
                         <span className="kicker">Evento 2</span>
                         <span className="story-card__title">
@@ -100,30 +104,29 @@ export default function Eventss() {
 
                 <br/>
 
-                {/*Evento 1*/}
+                {/*Evento 3*/}
                 <div className="eventss__grid">
                     {/*ITEM DO LADO ESQUERDO DA TELA */}
                     <Carousel
-                        slides={galleryEventssPovosIndigenas}
+                        slides={galleryEventssDiaOftalmologica} //Troca para o array de imagens do evento.
                         current={currentSlide3}
                         setCurrent={setCurrentSlide3}
                         label="Galeria de eventos"
                     />
 
                     {/*ITEM DO LADO DIREITO DA TELA */}
-                    <article className="story-card-eventss">
+                    <article className="story-card-eventss-3">
                         <span className="story-card__number">03</span>
                         <span className="kicker">Evento 3</span>
                         <span className="story-card__title">
-                            <h3>Projeto <br /> Dia da Vacinação: Cuidar, Proteger e Crescer com Saúde!</h3>
+                            <h3>Projeto <br />Consulta Oftalmológica</h3>
                             <br/>
                         </span>
                         <p>
-                            O Dia da Vacinação na escola foi um momento importante de cuidado e conscientização sobre a saúde das nossas crianças. Com o apoio dos profissionais de saúde e das famílias, reforçamos a importância das vacinas na prevenção de doenças e na proteção de todos. Afinal, vacinar é um ato de amor, responsabilidade e cuidado com o futuro dos pequenos!
+                            O Instituto de medicia e visão junto a SME ta proporcionando exame gratuito 
+                            para os alunos das escolas públicas.
                         </p>
-                        <p>
-                            Nossa proposta valoriza o cuidado, o carinho e a proteção desde a infância, promovendo a conscientização sobre a importância da vacinação. Afinal, cada vacina é um gesto de amor que ajuda a proteger nossas crianças, garantindo mais saúde, segurança e muitos sorrisos para crescer, brincar e descobrir o mundo!cia.
-                        </p>
+                        
 
                         <div className="story-card__note">
                             <Icon name="calendar" />
@@ -136,7 +139,41 @@ export default function Eventss() {
                 </div>
 
                 <br/>
+                {/*Evento 4*/}
+                <div className="eventss__grid">
+                    {/*ITEM DO LADO ESQUERDO DA TELA */}
+                    <article className="story-card-eventss-4">
+                        <span className="story-card__number">04</span>
+                        <span className="kicker">Evento 4</span>
+                        <span className="story-card__title">
+                            <h3>Projeto <br />  Dia da Culinaria: Aprender, Experimentar e Crescer com Saúde!</h3>
+                            <br/>
+                        </span>
+                        <p>
+                            O Dia da Culinaria foi um momento especial de alegria, descobertas e aprendizado! As crianças tiveram a oportunidade de conhecer diferentes frutas, explorar cores, aromas, texturas e sabores, descobrindo de forma divertida a importância de uma alimentação saudável. A atividade incentivou a curiosidade, a autonomia e a criação de hábitos alimentares positivos desde a infância, tornando o aprendizado uma experiência saborosa e cheia de diversão! 
+                        </p>
+                        
 
+                        <div className="story-card__note">
+                            <Icon name="calendar" />
+                            <span>
+                                <strong>Data</strong> 
+                                Evento realizado em 00/00/2026
+                            </span>
+                        </div>
+                    </article>
+
+                    {/*ITEM DO LADO DIREITO DA TELA */}
+                    <Carousel
+                        slides={galleryEventssDiadaCulinaria} //Troca para o array de imagens do evento.
+                        current={currentSlide4}
+                        setCurrent={setCurrentSlide4}
+                        label="Galeria de Fotos do evento Dia da Culinaria"
+                    />
+                </div>
+
+                <br/>
+                
             </div>
             
         </section>

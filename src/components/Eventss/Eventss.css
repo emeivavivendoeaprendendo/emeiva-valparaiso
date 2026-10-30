@@ -14,8 +14,31 @@
   overflow: hidden;
   padding: 58px 48px;
   border-radius: 8px 36px 8px 36px;
-  background: var(--blush);
+  background: var(--yellow);
 }
+.story-card-eventss-2 {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 48px;
+  border-radius: 8px 36px 8px 36px;
+  background: var(--blue);
+}
+.story-card-eventss-3 {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 48px;
+  border-radius: 8px 36px 8px 36px;
+  background: var(--pink);
+}
+.story-card-eventss-4 {
+  position: relative;
+  overflow: hidden;
+  padding: 58px 48px;
+  border-radius: 8px 36px 8px 36px;
+  background: var(--yellow);
+}
+
+
 
 .story-card__number {
   position: absolute;
@@ -33,9 +56,16 @@
 }
 
 .story-card__title h3 {
+  position: relative;
+  margin: 0 0 24px;
   font-family: var(--heading);
-  font-size: 2.4rem;
-  line-height: 1.2;
+  font-size: 38px;
+  line-height: 1.1;
+}
+.eventss__grid p {
+  position: relative;
+  color: #5d6474;
+  line-height: 1.75;
 }
 
 @media (max-width: 780px) {
