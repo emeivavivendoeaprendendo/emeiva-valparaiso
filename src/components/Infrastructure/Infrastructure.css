@@ -38,7 +38,7 @@
   line-height: 1.8;
 }
 
-.facility-grid {
+.facility-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;

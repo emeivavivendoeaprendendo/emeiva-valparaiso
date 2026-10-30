@@ -100,6 +100,19 @@
   line-height: 1.8;
 }
 
+.age-card:hover{
+  transition: background-color 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.schedule-card:hover{
+  color: var(--yellow);
+  transition: background-color 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
 @media (max-width: 1020px) {
     .enrollment__grid {
       grid-template-columns: 1fr 1fr;

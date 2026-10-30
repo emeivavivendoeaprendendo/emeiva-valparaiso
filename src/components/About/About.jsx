@@ -97,9 +97,9 @@ export default function About() {
         </div>
 
         <div className="values">
-          <article><Icon name="book" /><h3>Aprender brincando</h3><p>Experiências lúdicas e significativas.</p></article>
-          <article><Icon name="users" /><h3>Comunidade presente</h3><p>Família e escola crescendo juntas.</p></article>
-          <article><Icon name="heart" /><h3>Cuidado integral</h3><p>Acolhimento em cada fase da infância.</p></article>
+          <article className="values1"><Icon name="book" /><h3>Aprender brincando</h3><p>Experiências lúdicas e significativas.</p></article>
+          <article className="values2"><Icon name="users" /><h3>Comunidade presente</h3><p>Família e escola crescendo juntas.</p></article>
+          <article className="values3"><Icon name="heart" /><h3>Cuidado integral</h3><p>Acolhimento em cada fase da infância.</p></article>
         </div>
       </div>
     </section>
