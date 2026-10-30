@@ -6,23 +6,51 @@ export default function Infrastructure() {
   return (
     <section className="section infrastructure" id="infraestrutura">
       <div className="shell">
-        <SectionTitle eyebrow="Nossos espaços" title="Feita para explorar com segurança">
-          Ambientes preparados para acolher, movimentar, criar e estimular novas descobertas.
+        <SectionTitle eyebrow="O dia a dia" title="Vivências que transformam a infância">
+          Um olhar atento e carinhoso sobre tudo o que acontece em nossos dias de aprendizado.
         </SectionTitle>
-        <div className="infrastructure__feature">
-          <img
-            src="https://images.unsplash.com/photo-1567746455504-cb3213f8f5b8?auto=format&fit=crop&w=1400&q=85"
-            alt="Sala infantil clara e organizada"
-          />
-          <div>
-            <span className="kicker">Ambientes acolhedores</span>
-            <h3>Espaços na medida da infância</h3>
-            <p>
-              Salas arejadas, mobiliário adequado e recursos pedagógicos que convidam à participação,
-              à imaginação e à autonomia.
-            </p>
-          </div>
+
+        {/*SESSÃO DE VIDEO DO SITE (UMA DIV PARA CADA VIDEO*/}
+        {/*VIDEO 1*/}
+        <div className="infrastructure__feature video1">
+            <div className="video-container1">
+              <video controls autoPlay className="video1-video">
+                <source src="src/assets/video/16.mp4" type="video/mp4" />
+                Seu navegador não suporta tags de vídeo.
+              </video>
+            </div>
+
+            <div className="video-texto1">
+              <span className="kicker">Ambientes acolhedores</span>
+              <h3>Espaços na medida da infância</h3>
+              <p>
+                Salas arejadas, mobiliário adequado e recursos pedagógicos que convidam à participação,
+                à imaginação e à autonomia.
+              </p>
+            </div>
         </div>
+
+        {/*VIDEO 2*/}
+        <div className="infrastructure__feature video2">
+            <div className="video-texto2">
+              <span className="kicker">Ambientes acolhedores</span>
+              <h3>Espaços na medida da infância</h3>
+              <p>
+                Salas arejadas, mobiliário adequado e recursos pedagógicos que convidam à participação,
+                à imaginação e à autonomia.
+              </p>
+            </div>
+
+            <div className="video-container2">
+              <video controls autoPlay className="video2-video">
+                <source src="src/assets/video/16.mp4" type="video/mp4" />
+                Seu navegador não suporta tags de vídeo.
+              </video>
+            </div>
+
+        </div>
+
+        
         <div className="facility-grid">
           {/* <article><Icon name="blocks" /><h3>Salas de referência</h3><p>Organizadas para atividades, rodas de conversa e brincadeiras.</p></article> */}
           <article><Icon name="heart" /><h3>Alimentação escolar</h3><p>Refeições preparadas para uma rotina saudável e acolhedora.</p></article>
