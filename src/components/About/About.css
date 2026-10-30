@@ -120,7 +120,6 @@
   padding: 32px;
   border: 1px solid rgba(37, 49, 74, 0.08);
   border-radius: 16px;
-  background: white;
 }
 
 .values svg {
@@ -139,8 +138,30 @@
   font-size: 14px;
 }
 
+.values1:hover{
+  background-color: var(--yellow);
+  transition: background-color 0.5s ease-in-out;
+   transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.values2:hover{
+  background-color: var(--blue);
+  transition: background-color 0.5s ease-in-out;
+   transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.values3:hover{ 
+  background-color: var(--pink);
+  transition: background-color 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
 @media (max-width: 780px) {
     .story-card {
       padding: 42px 30px;
     }
 }
+

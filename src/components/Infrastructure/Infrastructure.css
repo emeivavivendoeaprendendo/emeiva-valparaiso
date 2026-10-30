@@ -19,6 +19,95 @@
   object-fit: cover;
 }
 
+
+/* ESTILOS DOS QUADROS DE VIDEO -------------------------*/
+
+/*VIDEO 1*/
+.video1-video {
+    width: 100%;       
+    max-width: 640px;  
+    height: 360px;     /* Altura proporcional para manter a proporção 16:9 (640x360) */
+    
+}
+
+.video-container1 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Mantém a proporção exata de 16:9 (altura = 56.25% da largura) */
+  height: 0;
+}
+
+.video-container1 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300%;
+  border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
+}
+
+
+
+.video1 {
+  background-color: var(--color-yellow-200);
+}
+
+.video-texto1 {
+  color: rgb(48, 46, 46);
+}
+
+.video-texto1 p {
+  color: rgb(48, 46, 46) !important;
+}
+
+.video-texto1 span {
+  color: rgb(48, 46, 46) !important;
+}
+
+
+/*VIDEO 2*/
+.video2-video {
+    width: 100%;       
+    max-width: 640px;  
+    height: 360px;     /* Altura proporcional para manter a proporção 16:9 (640x360) */
+
+}
+
+.video-container2 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Mantém a proporção exata de 16:9 (altura = 56.25% da largura) */
+  height: 0;
+}
+
+.video-container2 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 240%;
+  border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
+}
+
+.video2 {
+  background-color: var(--color-blue-600) !important;
+}
+
+.video-texto2 {
+  color: var(--color-white) !important;
+}
+
+.video-texto2 p {
+  color: var(--color-white) !important;
+}
+
+.video-texto2 span {
+  color: var(--color-white) !important;
+}
+
+
+/*-------------------------------------------------------*/
+
 .infrastructure__feature > div {
   display: grid;
   align-content: center;
@@ -38,7 +127,7 @@
   line-height: 1.8;
 }
 
-.facility-grid {
+.facility-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
