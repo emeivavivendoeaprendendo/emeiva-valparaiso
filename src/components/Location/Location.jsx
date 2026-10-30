@@ -14,8 +14,7 @@ export default function Location() {
             </span>
           </h2>
           <p>
-            Use o mapa para localizar a EMEI. O endereço oficial e os canais de contato podem ser
-            inseridos aqui assim que forem confirmados.
+            Entre em contato, tire suas dúvidas e agende uma visita para conhecer a EMEI Vivendo e Aprendendo. Estamos ansiosos para recebê-lo!
           </p>
           <div className="contact-line">
             <Icon name="map" />
