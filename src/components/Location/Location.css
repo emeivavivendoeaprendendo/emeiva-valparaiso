@@ -82,6 +82,12 @@
   color: #fff;
 }
 
+.contact-phone abbr {
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+  cursor: help;
+}
+
 @media (max-width: 780px) {
     .location__grid {
       gap: 55px;

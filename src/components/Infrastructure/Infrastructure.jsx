@@ -43,7 +43,7 @@ export default function Infrastructure() {
             </div>
 
             <div className="video-container2">
-              <video controls autoPlay className="video2-video">
+              <video controls autoPlay muted className="video2-video">
                 <source src="src/assets/video/3.mp4" type="video/mp4" />
                 Seu navegador não suporta tags de vídeo.
               </video>
@@ -54,7 +54,7 @@ export default function Infrastructure() {
         {/*VIDEO 3*/}
         <div className="infrastructure__feature video3">
             <div className="video-container3">
-              <video controls autoPlay className="video3-video">
+              <video controls autoPlay muted className="video3-video">
                 <source src="src/assets/video/2.mp4" type="video/mp4" />
                 Seu navegador não suporta tags de vídeo.
               </video>
