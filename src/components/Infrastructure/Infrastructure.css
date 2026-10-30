@@ -157,6 +157,26 @@
   line-height: 1.6;
 }
 
+.values1:hover{
+  background-color: var(--yellow);
+  transition: background-color 0.5s ease-in-out;
+   transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.values2:hover{
+  background-color: var(--blue);
+  transition: background-color 0.5s ease-in-out;
+   transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.values3:hover{ 
+  background-color: var(--pink);
+  transition: background-color 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
 @media (max-width: 1020px) {
     .facility-grid {
       grid-template-columns: 1fr 1fr;
