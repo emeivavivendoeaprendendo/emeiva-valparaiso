@@ -123,8 +123,11 @@ export default function Eventss() {
                             <br/>
                         </span>
                         <p>
-                            O Instituto de medicia e visão junto a SME ta proporcionando exame gratuito 
-                            para os alunos das escolas públicas.
+                            O Instituto de Medicina e Visão, em parceria com a Secretaria Municipal de Educação (SME), está promovendo a realização de exames oftalmológicos gratuitos para os alunos da rede pública de ensino.
+
+A Escola Municipal de Educação Infantil participa dessa iniciativa, que tem como objetivo promover a saúde visual das crianças, contribuir para o seu desenvolvimento integral e favorecer melhores condições de aprendizagem.
+
+Essa ação reforça a importância da parceria entre as instituições na promoção da saúde, do bem-estar e da qualidade de vida dos nossos estudantes.
                         </p>
                         
 
