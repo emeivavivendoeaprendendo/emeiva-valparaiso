@@ -161,7 +161,7 @@ Essa ação reforça a importância da parceria entre as instituições na promo
                             <Icon name="calendar" />
                             <span>
                                 <strong>Data</strong> 
-                                Evento realizado em 00/00/2026
+                                Evento realizado em 27/04/2026
                             </span>
                         </div>
                     </article>
