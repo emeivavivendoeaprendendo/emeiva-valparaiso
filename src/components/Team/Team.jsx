@@ -15,7 +15,7 @@ export default function Team() {
               <img src={person.image} alt={`Foto provisória para ${person.role}`} />
               <div>
                 <span>{person.sector}</span>
-                <h3>Nome do(a) servidor(a)</h3>
+                <h3>{person.name}</h3>
                 <strong>{person.role}</strong>
                 <p>{person.description}</p>
               </div>

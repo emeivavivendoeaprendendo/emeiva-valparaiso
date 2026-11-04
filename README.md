@@ -76,8 +76,7 @@ emei-vivendo-e-aprendendo/
 │   └── main.jsx            # Ponto de entrada da aplicação React
 ├── dist/                   # Artefato gerado pelo comando de build
 ├── index.html              # Template HTML principal configurado em pt-BR
-├── package.json            # Dependências e scripts do projeto
-└── pnpm-lock.yaml          # Trava de versões das dependências
+└── package.json            # Dependências e scripts do projeto
 ```
 
 ---
@@ -109,7 +108,6 @@ Antes do lançamento em produção, realize a substituição dos itens marcados:
 
 ### Pré-requisitos
 - **Node.js** `>= 18.0.0`
-- **pnpm** `>= 8.0.0` (Instale via `npm i -g pnpm` caso não possua)
 
 ### Passo a passo
 
@@ -121,12 +119,12 @@ Antes do lançamento em produção, realize a substituição dos itens marcados:
 
 2. **Instalar as dependências:**
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. **Iniciar ambiente de desenvolvimento:**
    ```bash
-   pnpm run dev 
+   npm run dev 
    ```
    Acesse a aplicação no navegador em `http://localhost:5173`.
 
@@ -137,22 +135,16 @@ Antes do lançamento em produção, realize a substituição dos itens marcados:
 Para gerar a versão otimizada de produção:
 
 ```bash
-pnpm build
+npm build
 ```
-
-O comando compilará os arquivos estáticos na pasta `/dist`.
-
-### Verificação de Deploy
-- **Build Local:** Executado com sucesso via `pnpm build`.
-- **Deploy Preview:** Validado com sucesso via `figma make verify-deploy-preview`.
-
----
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por **Robert Douglas**.
+Projeto desenvolvido por **Robert Douglas** e equipe:
 
 - **GitHub:** [@robertdouglasaimon](https://github.com/robertdouglasaimon)
+- **GitHub**  [@SantosWN](https://github.com/SantosWN)
+- **GitHub**  [@Gabriel20px](https://github.com/Gabriel20px)
 
 ---
 
