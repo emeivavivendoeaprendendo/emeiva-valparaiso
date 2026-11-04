@@ -268,8 +268,10 @@
   transform: scale(1.05);
 }
 @media (max-width: 1020px) {
-    .facility-grid {
-      grid-template-columns: 1fr 1fr;
+    .facility-grid{
+      display: flex;
+      flex-direction: column;
+      margin: 0;  
     }
 }
 @media (max-width: 780px) {
