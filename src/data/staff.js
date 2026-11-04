@@ -21,7 +21,7 @@ const staff = [
     role: "Secretária escolar",
     description: "Acolhe as famílias e cuida da rotina para que a escola funcione todos os dias.",
     image:
-      "https://img.magnific.com/vetores-premium/icone-de-perfil-de-contato-icone-de-avatar_1199668-1320.jpg",
+      "src/assets/img/Equipe/3.PNG",
   },
   {
     name: "Marcela Marques",
