@@ -1,5 +1,4 @@
 import Header from "./components/Header/Header";
-import FundoLudico from "./components/BurstEffect/FundoLudico.JSX";
 import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
 import About from "./components/About/About";
@@ -14,8 +13,6 @@ export default function App() {
   return (
     <div className="site">
       <Header />
-      {/* O efeito leve e infantil rodando no fundo */}
-      <FundoLudico />
       <main>
         <Hero />
         <Intro />
