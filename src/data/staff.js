@@ -45,7 +45,7 @@ const staff = [
     role: "Serviços gerais - Readaptação",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "https://images.unsplash.com/photo-1573496527892-904f897eb744?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/Wania.PNG",
   },
   {
     name: "Sandra Lucia",
@@ -53,7 +53,7 @@ const staff = [
     role: "Serviços gerais - Readaptação",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/Sandra.PNG",
   },
   {
     name: "Maria Luzeni",
