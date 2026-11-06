@@ -94,7 +94,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 275%;
+  height: 310%;
   border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
 }
 
@@ -287,4 +287,13 @@
     .facility-grid {
       grid-template-columns: 1fr;
     }
+
+    .kicker {
+      margin: 130px 0 0 0px;
+    }
+
+    .infrastructure__feature h3 {
+      margin: 15px 0 20px;
+    }
+
 }

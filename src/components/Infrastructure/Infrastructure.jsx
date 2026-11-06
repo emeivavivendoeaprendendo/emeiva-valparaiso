@@ -31,6 +31,13 @@ export default function Infrastructure() {
 
         {/*VIDEO 2*/}
         <div className="infrastructure__feature video2">
+            <div className="video-container2">
+              <video controls autoPlay muted className="video2-video">
+                <source src="src/assets/video/3.mp4" type="video/mp4" />
+                Seu navegador não suporta tags de vídeo.
+              </video>
+            </div>
+
             <div className="video-texto2">
               <span className="kicker">Cidadania que começa na infância</span>
               <h3>Vivências cívicas e formação de valores</h3>
@@ -40,13 +47,6 @@ export default function Infrastructure() {
                 </span> fortalecem o sentimento de pertencimento, o respeito à <br/>
                 história local e a construção da cidadania desde os primeiros anos de vida.            
               </p>
-            </div>
-
-            <div className="video-container2">
-              <video controls autoPlay muted className="video2-video">
-                <source src="src/assets/video/3.mp4" type="video/mp4" />
-                Seu navegador não suporta tags de vídeo.
-              </video>
             </div>
 
         </div>
