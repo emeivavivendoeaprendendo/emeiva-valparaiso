@@ -22,7 +22,7 @@ export default function Team() {
             </article>
           ))}
         </div>
-        <p className="team__note">Fotos e nomes demonstrativos — substitua pelos dados autorizados da equipe.</p>
+        <p className="team__note">As imagens usadas no site são autorizadas pela EMEI e responsáveis das fotos. —  Lei nº 13.709/2018.</p>
       </div>
     </section>
   );

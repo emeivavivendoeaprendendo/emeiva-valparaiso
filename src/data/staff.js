@@ -37,7 +37,7 @@ const staff = [
     role: "Serviços gerais",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
     {
     name: "Wania Maria",
@@ -61,7 +61,7 @@ const staff = [
     role: "Equipe pedagógica",
     description: "Apoia as atividades pedagógicas, o cuidado com os estudantes e a organização da escola.",
     image:
-      "https://images.unsplash.com/photo-1758685847967-c598c3b176b0?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Mariluza Gonçalves",
@@ -69,7 +69,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1590650213165-c1fef80648c4?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Ana Paula",
@@ -77,7 +77,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
     {
     name: "Elisangela Felix",
@@ -85,7 +85,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1573496527892-904f897eb744?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Denise Maria",
@@ -93,7 +93,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Vancisca Lopes",
@@ -101,7 +101,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1758685847967-c598c3b176b0?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Irenilda da Silva",
@@ -109,7 +109,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1590650213165-c1fef80648c4?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Paula de Sousa",
@@ -117,7 +117,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Bernadete Tavares",
@@ -125,7 +125,7 @@ const staff = [
     role: "Serviços gerais",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "https://images.unsplash.com/photo-1573496527892-904f897eb744?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Adriana da Silva",
@@ -141,7 +141,7 @@ const staff = [
     role: "Merendeira",
     description: "Prepara a alimentação das crianças, garantindo refeições saudáveis e nutritivas.",
     image:
-      "https://images.unsplash.com/photo-1758685847967-c598c3b176b0?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   },
   {
     name: "Maria de Lourdes",
@@ -149,7 +149,7 @@ const staff = [
     role: "Secretaria e serviços escolares",
     description: "Acolhem as famílias e cuidam da rotina para que a escola funcione todos os dias.",
     image:
-      "https://images.unsplash.com/photo-1590650213165-c1fef80648c4?auto=format&fit=crop&w=500&q=85",
+      "src/assets/img/Equipe/AVATAR.PNG",
   }
 ];
 
