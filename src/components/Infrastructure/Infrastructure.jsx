@@ -15,7 +15,7 @@ export default function Infrastructure() {
         <div className="infrastructure__feature video1">
             <div className="video-container1">
               <video controls autoPlay muted className="video1-video">
-                <source src="src/assets/video/1.mp4" type="video/mp4" />
+                <source src="../../src/assets/video/1.mp4" type="video/mp4" />
                 Seu navegador não suporta tags de vídeo.
               </video>
             </div>
@@ -33,7 +33,7 @@ export default function Infrastructure() {
         <div className="infrastructure__feature video2">
             <div className="video-container2">
               <video controls autoPlay muted className="video2-video">
-                <source src="src/assets/video/3.mp4" type="video/mp4" />
+                <source src="../../src/assets/video/3.mp4" type="video/mp4" />
                 Seu navegador não suporta tags de vídeo.
               </video>
             </div>
@@ -55,7 +55,7 @@ export default function Infrastructure() {
         <div className="infrastructure__feature video3">
             <div className="video-container3">
               <video controls autoPlay muted className="video3-video">
-                <source src="src/assets/video/2.mp4" type="video/mp4" />
+                <source src="../../src/assets/video/2.mp4" type="video/mp4" />
                 Seu navegador não suporta tags de vídeo.
               </video>
             </div>
