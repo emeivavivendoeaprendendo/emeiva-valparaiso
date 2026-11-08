@@ -15,14 +15,14 @@ export default function Team() {
               <img src={person.image} alt={`Foto provisória para ${person.role}`} />
               <div>
                 <span>{person.sector}</span>
-                <h3>Nome do(a) servidor(a)</h3>
+                <h3>{person.name}</h3>
                 <strong>{person.role}</strong>
                 <p>{person.description}</p>
               </div>
             </article>
           ))}
         </div>
-        <p className="team__note">Fotos e nomes demonstrativos — substitua pelos dados autorizados da equipe.</p>
+        <p className="team__note">As imagens usadas no site são autorizadas pela EMEI e responsáveis das fotos. —  Lei nº 13.709/2018.</p>
       </div>
     </section>
   );

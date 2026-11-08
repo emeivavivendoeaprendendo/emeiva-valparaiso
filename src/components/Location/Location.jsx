@@ -1,4 +1,5 @@
 import Icon from "../Icon/Icon";
+import { BsChatLeftHeart } from "react-icons/bs";
 import "./Location.css";
 
 export default function Location() {
@@ -7,13 +8,46 @@ export default function Location() {
       <div className="shell location__grid">
         <div className="location__content">
           <span className="kicker">Venha nos conhecer</span>
-          <h2>A escola está de<br /><em>portas abertas.</em></h2>
+          <h2>A escola está de<br />
+            <span className="door_desciption">
+              <strong>portas abertas.</strong>
+            </span>
+          </h2>
           <p>
-            Use o mapa para localizar a EMEI. O endereço oficial e os canais de contato podem ser
-            inseridos aqui assim que forem confirmados.
+            Entre em contato, tire suas dúvidas e agende uma visita para conhecer a EMEI Vivendo e Aprendendo. Estamos ansiosos para recebê-lo!
           </p>
-          <div className="contact-line"><Icon name="map" /><span><small>Endereço</small><strong>Endereço completo da escola</strong></span></div>
-          <div className="contact-line"><Icon name="clock" /><span><small>Atendimento da secretaria</small><strong>7h30 às 16h</strong></span></div>
+          <div className="contact-line">
+            <Icon name="map" />
+              <span>
+                <small>Endereço</small>
+                <strong>
+                  Quadra 88 Lote 6/7 2ª Etapa do Céu Azul, Valparaíso de Goiás - GO, 72871-066
+                </strong>
+              </span>
+          </div>
+
+          <div className="contact-line">
+            <BsChatLeftHeart />
+            <span>
+              <small>Contato</small>
+              <span className="contact-phone">
+                <abbr title="Este contato também é o WhatsApp oficial da EMEI.">
+                  <a href="https://wa.me/5561995826547" target="_blank" rel="noreferrer">
+                    <strong>(61) 9 9582-6547</strong>
+                  </a>
+                </abbr>
+              </span>
+
+            </span>
+          </div>
+          
+          <div className="contact-line">
+            <Icon name="clock" />
+              <span>
+                <small>Atendimento da secretaria</small>
+                <strong>7h30 às 16h</strong>
+              </span>
+            </div>
           <a
             className="button button--dark"
             href="https://www.google.com/maps/search/?api=1&query=EMEI+Vivendo+e+Aprendendo"
@@ -30,7 +64,7 @@ export default function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
-          <span>Localização provisória — confirme o endereço antes da publicação</span>
+          <span>Localização real — clique aqui para abrir no seu navegador.</span>
         </div>
       </div>
     </section>
