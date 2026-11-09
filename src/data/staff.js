@@ -5,7 +5,7 @@ const staff = [
     role: "Direção escolar",
     description: "Responsável pela gestão pedagógica, administrativa e pelo diálogo com a comunidade.",
     image:
-      "../../src/assets/img/Equipe/1.PNG",
+      "https://lh3.googleusercontent.com/d/1TJ5fJYlRERXUYjvtEyPpeGwhzOBPyvey",
   },
   {
     name: "Andrea Texeira",
@@ -13,7 +13,7 @@ const staff = [
     role: "Coordenação pedagógica",
     description: "Acompanha o planejamento, as práticas educativas e o desenvolvimento das turmas.",
     image:
-      "../../src/assets/img/Equipe/2.PNG",
+      "https://lh3.googleusercontent.com/d/1FLAsPbzVIWivHKtm4hCFeBb6nfmSciBe",
   },
   {
     name: "Andréia Lima",
@@ -21,15 +21,15 @@ const staff = [
     role: "Secretária escolar",
     description: "Acolhe as famílias e cuida da rotina para que a escola funcione todos os dias.",
     image:
-      "../../src/assets/img/Equipe/3.PNG",
-  },
+      "https://lh3.googleusercontent.com/d/15rCvtah1KTCnspGenqCSMWg90mX-lQ7R",
+  },  
   {
     name: "Marcela Marques",
     sector: "Assistente de Educação",
     role: "Apoio pedagógico",
     description: "Apoia as atividades pedagógicas, o cuidado com os estudantes e a organização da escola.",
     image:
-      "../../src/assets/img/Equipe/4.PNG",
+      "https://lh3.googleusercontent.com/d/1bN_JRTDieFgCY83yCaN_Pk--Pk-poZ86"
   },
   {
     name: "Bernadete Tavares",
@@ -37,7 +37,7 @@ const staff = [
     role: "Serviços gerais",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
     {
     name: "Wania Maria",
@@ -45,7 +45,7 @@ const staff = [
     role: "Serviços gerais - Readaptação",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "../../src/assets/img/Equipe/Wania.PNG",
+      "https://lh3.googleusercontent.com/d/18srssQqB-Sz40q2g5vKBWaaYxRSorekC",
   },
   {
     name: "Sandra Lucia",
@@ -53,7 +53,7 @@ const staff = [
     role: "Serviços gerais - Readaptação",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "../../src/assets/img/Equipe/Sandra.PNG",
+      "https://lh3.googleusercontent.com/d/18RcOn7Pie7aPaCRnpgt1Rokhdm7cbN95",
   },
   {
     name: "Maria Luzeni",
@@ -61,7 +61,7 @@ const staff = [
     role: "Equipe pedagógica",
     description: "Apoia as atividades pedagógicas, o cuidado com os estudantes e a organização da escola.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Mariluza Gonçalves",
@@ -69,7 +69,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Ana Paula",
@@ -77,7 +77,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
     {
     name: "Elisangela Felix",
@@ -85,7 +85,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Denise Maria",
@@ -93,7 +93,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Vancisca Lopes",
@@ -101,7 +101,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Irenilda da Silva",
@@ -109,7 +109,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Paula de Sousa",
@@ -117,7 +117,7 @@ const staff = [
     role: "Docente",
     description: "Criam experiências de aprendizagem, cuidado, convivência e descoberta.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Bernadete Tavares",
@@ -125,7 +125,7 @@ const staff = [
     role: "Serviços gerais",
     description: "Mantêm a escola limpa, organizada e segura para todos.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Adriana da Silva",
@@ -133,7 +133,7 @@ const staff = [
     role: "Merendeira",
     description: "Prepara a alimentação das crianças, garantindo refeições saudáveis e nutritivas.",
     image:
-      "../../src/assets/img/Equipe/Adriana.PNG",
+      "https://lh3.googleusercontent.com/d/1l9FiU-ORQJxbnO6rZ63bLj6ifteNf6bP",
   },
   {
     name: "Gessi Pereira",
@@ -141,7 +141,7 @@ const staff = [
     role: "Merendeira",
     description: "Prepara a alimentação das crianças, garantindo refeições saudáveis e nutritivas.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   },
   {
     name: "Maria de Lourdes",
@@ -149,7 +149,7 @@ const staff = [
     role: "Secretaria e serviços escolares",
     description: "Acolhem as famílias e cuidam da rotina para que a escola funcione todos os dias.",
     image:
-      "../../src/assets/img/Equipe/AVATAR.PNG",
+      "https://lh3.googleusercontent.com/d/16SxeIgETMqFNEu_GDcTGKseatQL8yPmv",
   }
 ];
 

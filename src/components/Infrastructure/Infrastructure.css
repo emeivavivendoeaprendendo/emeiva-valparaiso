@@ -5,203 +5,28 @@
 .infrastructure__feature {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  align-items: stretch;
+  align-items: center; /* Garante que vídeo e texto fiquem perfeitamente alinhados no centro */
   overflow: hidden;
   margin-bottom: 22px;
-  border-radius: 34px;
+  border-radius: 24px;
   background: var(--ink);
   color: white;
-}
-
-.infrastructure__feature img {
-  width: 100%;
-  min-height: 400px;
-  object-fit: cover;
-}
-
-
-/* ESTILOS DOS QUADROS DE VIDEO ---------------------------------------------------------*/
-
-/*VIDEO 1*/
-.video1-video {
-    width: 100%;       
-    max-width: 640px;  
-    height: 360px;     /* Altura proporcional para manter a proporção 16:9 (640x360) */
-    
-}
-
-.video-container1 {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* Mantém a proporção exata de 16:9 (altura = 56.25% da largura) */
-  height: 0;
-}
-
-.video-container1 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 300%;
-  border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
-}
-
-
-
-.video1 {
-  background-color: var(--color-yellow-200);
-}
-
-/* EFEITO HOVER Amarelo no video1 - Ficou massinha!*/
-.video1:hover {
-  box-shadow:
-    0 15px 35px rgba(0,0,0,.15),
-    0 0 15px rgba(255, 214, 10, .30);
-
-  border-color: rgba(255, 214, 10, .35);
-}
-
-.video-texto1 {
-  color: rgb(48, 46, 46);
-}
-
-.video-texto1 p {
-  color: rgb(48, 46, 46) !important;
-}
-
-.video-texto1 span {
-  color: rgb(48, 46, 46) !important;
-}
-
-
-/*VIDEO 2*/
-.video2-video {
-    width: 100%;       
-    max-width: 640px;  
-    height: 360px;     /* Altura proporcional para manter a proporção 16:9 (640x360) */
-
-}
-
-.video-container2 {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* Mantém a proporção exata de 16:9 (altura = 56.25% da largura) */
-  height: 0;
-}
-
-.video-container2 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 310%;
-  border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
-}
-
-.video2 {
-  background-color: var(--color-blue-600) !important;
-}
-
-/* EFEITO HOVER Azul no video2 - Mesmo role do anterior!*/
-.video2:hover {
-  box-shadow:
-    0 15px 35px rgba(0,0,0,.15),
-    0 0 18px rgba(78, 91, 255, .35);
-
-  border-color: rgba(78, 91, 255, .40);
-}
-
-.video-texto2 {
-  color: var(--color-white) !important;
-}
-
-.video-texto2 p {
-  color: var(--color-white) !important;
-}
-
-.video-texto2 span {
-  color: var(--color-white) !important;
-}
-
-
-/* VIDEO 3 */
-.video3-video {
-    width: 100%;       
-    max-width: 640px;  
-    height: 360px;     /* Altura proporcional para manter a proporção 16:9 (640x360) */
-
-}
-
-.video-container3 {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* Mantém a proporção exata de 16:9 (altura = 56.25% da largura) */
-  height: 0;
-}
-
-.video-container3 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 338%;
-  border-radius: 8px; /* Opcional: arredondar as bordas se quiser */
-}
-
-.video3 {
-  background-color: var(--color-red-300) !important;
-}
-
-/* EFEITO HOVER Rosa no video3 - Mesmo role do anterior!*/
-.video3:hover {
-  box-shadow:
-    0 15px 35px rgba(0,0,0,.15),
-    0 0 18px rgba(255, 105, 180, .35);
-
-  border-color: rgba(255, 105, 180, .40);
-}
-
-.video-texto3 {
-  color: var(--color-black) !important;
-}
-
-.video-texto3 p {
-  color: var(--color-black) !important;
-}
-
-.video-texto3 span {
-  color: var(--color-black) !important;
-}
-
-/*-----------------------------------------------------------------------------------------*/
-
-.infrastructure__feature {
-  border-radius: 24px;
-  transition: transform 0.35s ease,
-              box-shadow 0.35s ease,
-              border-color 0.35s ease;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
   cursor: pointer;
-
-  /* sombra suave padrão (Ia fazer maior mas ia ficar esquisito */
-  box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.08);
-
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid transparent;
 }
 
-/* EFEITO HOVER - Ia fazer no JS mas aqui no CSS fica de boa também! */
 .infrastructure__feature:hover {
   transform: translateY(-8px);
-
-  box-shadow:
-    0 15px 35px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.14);
 }
 
 .infrastructure__feature > div {
-  display: grid;
-  align-content: center;
-  padding: 55px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 55px; /* Padding padrão idêntico para todos os cards */
 }
 
 .infrastructure__feature h3 {
@@ -217,7 +42,68 @@
   line-height: 1.8;
 }
 
-.facility-grid{
+/* --- PADRÃO UNIFICADO PARA OS VÍDEOS --- */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Forma moderna e limpa de manter a proporção sem gambiarra */
+  height: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+
+.iframe-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Cores de fundo e efeitos específicos de cada card */
+
+.video1 {
+  background-color: var(--color-yellow-200);
+}
+.video1:hover {
+  box-shadow: 0 15px 35px rgba(0,0,0,.15), 0 0 15px rgba(255, 214, 10, .30);
+  border-color: rgba(255, 214, 10, .35);
+}
+.video-texto1, .video-texto1 p, .video-texto1 span {
+  color: rgb(48, 46, 46) !important;
+}
+
+
+.video2 {
+  background-color: var(--color-blue-600) !important;
+
+}
+
+.video2:hover {
+  box-shadow: 0 15px 35px rgba(0,0,0,.15), 0 0 18px rgba(78, 91, 255, .35);
+  border-color: rgba(78, 91, 255, .40);
+}
+.video-texto2, .video-texto2 p, .video-texto2 span {
+  color: var(--color-white) !important;
+}
+
+.video3 {
+  background-color: var(--color-red-300) !important;
+}
+.video3:hover {
+  box-shadow: 0 15px 35px rgba(0,0,0,.15), 0 0 18px rgba(255, 105, 180, .35);
+  border-color: rgba(255, 105, 180, .40);
+}
+.video-texto3, .video-texto3 p, .video-texto3 span {
+  color: var(--color-black) !important;
+}
+
+/* --- GRID DE FACILITY --- */
+.facility-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
@@ -247,61 +133,47 @@
   line-height: 1.6;
 }
 
-.values1:hover{
+.values1:hover {
   background-color: var(--yellow);
-  transition: background-color 0.5s ease-in-out;
-   transition: all 0.2s ease-in-out;
-  transform: scale(1.05);
-}
-
-.values2:hover{
-  background-color: var(--blue);
-  transition: background-color 0.5s ease-in-out;
-   transition: all 0.2s ease-in-out;
-  transform: scale(1.05);
-}
-
-.values3:hover{ 
-  background-color: var(--pink);
-  transition: background-color 0.5s ease-in-out;
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
+
+.values2:hover {
+  background-color: var(--blue);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.values3:hover { 
+  background-color: var(--pink);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* --- RESPONSIVIDADE --- */
 @media (max-width: 1020px) {
-    .facility-grid{
-      display: flex;
-      flex-direction: column;
-      margin: 0;  
-    }
+  .facility-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 0;  
+  }
 }
+
 @media (max-width: 780px) {
-    .infrastructure__feature > div {
-      padding: 38px 30px;
-    }
-
-    .infrastructure__feature img {
-      min-height: 300px;
-    }
-
-    .kicker {
-      margin: 130px 0 0 0px;
-    }
-
-    .infrastructure__feature h3 {
-      margin: 15px 0 20px;
-    }
+  .infrastructure__feature > div {
+    padding: 38px 30px;
+  }
+  .infrastructure__feature h3 {
+    margin: 15px 0 20px;
+  }
 }
+
 @media (max-width: 540px) {
-    .facility-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .kicker {
-      margin: 130px 0 0 0px;
-    }
-
-    .infrastructure__feature h3 {
-      margin: 15px 0 20px;
-    }
-
+  .facility-grid {
+    grid-template-columns: 1fr;
+  }
+  .infrastructure__feature h3 {
+    margin: 15px 0 20px;
+  }
 }
