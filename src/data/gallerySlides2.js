@@ -1,14 +1,14 @@
 const gallerySlides2 = [
   {
-    src: "src/assets/img/Variadas/IMG-20260406-WA0004.jpeg",
+    src: "https://drive.google.com/thumbnail?id=1YXlc_CLw0uZkVGbzV3twN3JV0GToIMWT&sz=w2000",
     alt: "Alunos realizando atividades",
   },
   {
-    src: "src/assets/img/Variadas/IMG-20260408-WA0003.jpg",
+    src: "https://drive.google.com/thumbnail?id=1NOK4PdnyzbpF9Orp6EJ1ZBJHsk4PRp0j&sz=w2000",
     alt: "Turma realizando atividades com experimentos",
   },  
   {
-    src: "src/assets/img/Variadas/IMG-20260408-WA0005.jpg",
+    src: "https://drive.google.com/thumbnail?id=1t_zEZvUVP7DwXpEhLYENe4Mj67yBrhX1&sz=w2000",
     alt: "Turma realizando atividades com experimentos",
   },
 ];
