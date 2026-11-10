@@ -88,21 +88,9 @@ O projeto foi construído seguindo diretrizes fundamentais de acessibilidade web
 - **Movimento Reduzido:** Suporte à media query `@media (prefers-reduced-motion)` para desativar animações automáticas do banner/carrossel quando solicitado pelo usuário.
 - **Internacionalização Base:** Atributo `lang="pt-BR"` e meta tags de viewport e charset adequadamente configurados.
 
----
-
-## 📌 Guia de Substituição de Conteúdo
-
-> ⚠️ **Atenção:** As imagens e informações atuais são demonstrativas (provenientes do Unsplash e dados genéricos).
-
-Antes do lançamento em produção, realize a substituição dos itens marcados:
-
-- [ ] **Imagens da Escola e Alunos:** Substituir os arquivos temporários do Unsplash no carrossel e na seção de infraestrutura.
-- [ ] **Logomarca:** Inserir o vetor/imagem da logo oficial em `src/assets/logo.svg`.
-- [ ] **Equipe:** Atualizar fotos, nomes e cargos dos servidores nos cards da seção *Colaboradores*.
-- [ ] **Google Maps:** Substituir a URL de busca genérica do iframe pelo embed exato com a chave/endereço real da escola.
-- [ ] **Histórico e Contato:** Revisar o texto institucional da aba *Sobre* e dados de e-mail/telefone na seção *Localização*.
 
 ---
+
 
 ## 🛠️ Instalação e Execução
 
