@@ -19,10 +19,22 @@ export default function Footer() {
           <span>Tarde: 13h30 às 17h30</span>
         </div>
       </div>
+
       <div className="shell footer__bottom">
-        <span>© 2026 EMEI Vivendo e Aprendendo</span>
-        <span>Educar, cuidar e acolher.</span>
+        <span>
+          <b>©  {new Date().getFullYear()} EMEI Vivendo e Aprendendo</b>
+        </span>
+
+
+       <span><b>Desenvolvido por:</b> <br/>
+          <a href="https://r-douglas.vercel.app" target="_blank" rel="noopener noreferrer">Robert Douglas</a>, <br/>
+          <a href="https://github.com/Gabriel20px" target="_blank" rel="noopener noreferrer">Gabriel Soares</a>, <br/>
+          <a href="https://github.com/SantosWN" target="_blank" rel="noopener noreferrer">Washington Santos</a>
+       </span>
+
+        <b><span>Educar, cuidar e acolher.</span></b>
       </div>
+
     </footer>
   );
 }
