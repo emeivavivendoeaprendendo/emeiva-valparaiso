@@ -6,6 +6,17 @@ export default function Footer() {
     <footer className="footer">
       <div className="shell footer__main">
         <Brand compact />
+
+        <div className="footer__social">
+          <strong>Nos siga nas redes sociais</strong>
+          <a href="https://www.instagram.com/emeiva_go" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+          <a href="https://wa.me/5561995826547" target="_blank" rel="noopener noreferrer">
+            WhatsApp
+          </a>
+        </div>
+
         <div>
           <strong>Navegação</strong>
           <a href="#sobre">Sobre a escola</a>
@@ -13,11 +24,11 @@ export default function Footer() {
           <a href="#infraestrutura">Infraestrutura</a>
         </div>
         
-        <div>
+        {/* <div>
           <strong>Horários</strong>
           <span>Manhã: 7h30 às 12h30</span>
           <span>Tarde: 13h30 às 17h30</span>
-        </div>
+        </div> */}
       </div>
 
       <div className="shell footer__bottom">
